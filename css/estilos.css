@@ -18,7 +18,7 @@ body {
 }
 
 .logo {
-  background: url(img\logo2.jpg) no-repeat 80% 80%;
+  background: url(img\logo.png) no-repeat 80% 80%;
   background-size: contain;
   width: 180px;
   height: 156px;
@@ -32,7 +32,7 @@ body {
 
 .menu a {
   float: right;
-  color: #333;
+  color: #94a1bd;
   text-decoration: none;
   font-size: 25px;
   font-weight: 600;
@@ -40,7 +40,7 @@ body {
   transition: color 1s;
   /text-transform: uppercase;/
   padding: 10px 15px;
-  margin-top: 50px;
+  margin-top: 65px;
 }
 
 .menu a:hover {
@@ -63,4 +63,28 @@ nav {
 
 nav a:hover {
   color: #c8472c;
+}
+h2 {
+  font-size: 35px;
+  color: rgb(191, 6, 3);
+}
+
+p {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: justify;
+  font-size: 30px;
+}
+.caja {
+  overflow: hidden;
+  margin: 10px;
+}
+.imagen {
+  float: left;
+  margin: 10px;
+  width: 400px;
+  height: auto;
+}
+.contenedor {
+  text-align: center;
 }
